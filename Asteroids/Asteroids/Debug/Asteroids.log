@@ -1,463 +1,483 @@
 ﻿  main.cpp
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(152,60): warning C4244:  “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(153,61): warning C4244:  “参数”: 从“double”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(366,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(370,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(371,16): warning C4244:  “return”: 从“double”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,74): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,74): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,74): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,74): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,49): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,49): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,49): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(619,49): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(631,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(644,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,85): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,51): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,51): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,51): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(692,51): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,94): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,94): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,94): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,94): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,60): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(723,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(725,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(761,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(803,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(847,28): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(849,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(869,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(882,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(901,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(916,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(932,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(959,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(972,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(989,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1002,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1018,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1024,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1031,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1035,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1040,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1052,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,74): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,74): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,74): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,74): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,49): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,49): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,49): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1081,49): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1093,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1106,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,85): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,51): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,51): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,51): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1166,51): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,94): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,94): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,94): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,94): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,60): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1199,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1236,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1278,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1322,28): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1324,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1344,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1357,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1376,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1391,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1406,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1433,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1446,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1463,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1476,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1492,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1498,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1506,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1510,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1515,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1527,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,74): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,74): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,74): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,74): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,49): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,49): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,49): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1556,49): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1568,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1581,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1593,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,75): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,75): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,75): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,75): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,50): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,50): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,50): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1605,50): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,85): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,51): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,51): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,51): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1653,51): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,94): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,94): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,94): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,94): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,60): warning C4244:             T=int
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1686,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1723,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1765,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1809,28): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1811,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1831,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1844,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,86): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,86): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,86): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,86): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,61): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,61): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,61): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,61): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,87): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,87): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,87): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,87): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,62): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,62): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,62): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1878,62): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1893,30): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1920,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1933,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,84): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,84): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,84): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,84): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,59): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,59): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,59): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1950,59): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,85): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,85): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,85): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,85): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,60): warning C4244:         with
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,60): warning C4244:         [
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,60): warning C4244:             T=float
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1963,60): warning C4244:         ]
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1979,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1985,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1993,26): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1997,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2002,25): warning C4018:  “<”: 有符号/无符号不匹配
-D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2014,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(162,60): warning C4244:  “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(163,61): warning C4244:  “参数”: 从“double”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(445,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(449,12): warning C4244:  “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(450,16): warning C4244:  “return”: 从“double”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,74): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,74): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,74): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,74): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,49): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,49): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,49): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(735,49): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(747,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(760,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,85): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,51): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,51): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,51): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(808,51): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,94): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,94): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,94): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,94): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,60): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(839,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(841,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(877,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(919,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(963,28): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(965,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(985,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(998,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1017,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1032,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1048,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1075,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1088,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1105,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1118,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1134,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1140,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1147,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1151,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1156,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1168,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,74): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,74): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,74): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,74): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,49): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,49): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,49): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1197,49): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1209,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1222,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1234,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1246,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,85): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,51): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,51): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,51): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1294,51): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,94): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,94): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,94): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,94): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,60): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1325,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1327,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1364,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1406,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1450,28): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1452,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1472,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1485,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1504,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1519,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1534,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1561,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1574,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1591,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1604,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1620,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1626,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1634,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1638,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1643,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1655,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,74): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,74): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,74): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,74): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,74): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,49): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,49): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,49): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,49): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1684,49): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1696,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1709,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1721,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1733,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,75): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,75): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,75): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,75): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,75): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,50): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,50): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,50): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,50): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1745,50): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,85): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,85): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,51): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,51): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,51): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,51): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1793,51): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,94): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,94): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,94): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,94): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,94): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,60): warning C4244:  “参数”: 从“T”转换到“float”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,60): warning C4244:             T=int
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1824,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1826,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1863,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1905,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1949,28): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1951,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1971,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(1984,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,86): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,86): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,86): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,86): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,86): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,61): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,61): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,61): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,61): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2003,61): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,87): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,87): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,87): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,87): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,87): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,62): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,62): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,62): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,62): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2018,62): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2033,30): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2060,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2073,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,84): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,84): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,84): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,84): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,84): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,59): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,59): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,59): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,59): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2090,59): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,85): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,85): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,85): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,85): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,85): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,60): warning C4244:  “参数”: 从“double”转换到“T”，可能丢失数据
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,60): warning C4244:         with
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,60): warning C4244:         [
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,60): warning C4244:             T=float
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2103,60): warning C4244:         ]
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2119,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2125,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2133,26): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2137,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2142,25): warning C4018:  “<”: 有符号/无符号不匹配
+D:\Game230\Asteroids\Asteroids\Asteroids\main.cpp(2154,26): warning C4018:  “<”: 有符号/无符号不匹配
   Asteroids.vcxproj -> D:\Game230\Asteroids\Asteroids\Debug\Asteroids.exe
