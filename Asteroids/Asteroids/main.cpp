@@ -29,7 +29,9 @@ sf::Sound asteroidExplode;
 sf::SoundBuffer thrustSnd;
 sf::Sound thrustSound;
 std::vector<sf::Vector2i> neighbor;
-
+std::random_device rd;
+std::default_random_engine generator{ rd() };
+std::uniform_real_distribution<double> dist(0, 1.0);
 sf::Vector2f Normalize(sf::Vector2f vector) {
 	float mag = sqrtf(pow(vector.x, 2) + pow(vector.y, 2));
 	return sf::Vector2f(vector.x / mag, vector.y / mag);
@@ -228,6 +230,36 @@ public:
 		window->draw(this->shape);
 	}
 };
+class PowerUp {
+public:
+	sf::CircleShape shape = sf::CircleShape(16.0f);
+	sf::Sprite sprite;
+	bool alive;
+	int type;
+	sf::Clock lifeTime;
+	bool Update(Ship* ship) {
+		auto position = this->shape.getPosition() + sf::Vector2f(this->shape.getRadius(), this->shape.getRadius());
+		auto radius = this->shape.getRadius();
+		auto shipRadius = ship->shape.getRadius();
+		if (ship->alive) {
+			if (Magnitude(position, ship->shape.getPosition() + sf::Vector2f(ship->shape.getRadius(), ship->shape.getRadius())) <= radius + shipRadius) {
+				this->alive = false;
+				return true;
+			}
+		}
+		if (this->alive) {
+			if (lifeTime.getElapsedTime().asSeconds() >= 5.0f) {
+				this->alive = false;
+			}
+		}
+		return false;
+	}
+	void draw(sf::RenderWindow * window) {
+		window->draw(this->shape);
+		window->draw(this->sprite);
+	}
+};
+std::vector<PowerUp> powerupList;
 class Asteroid {
 public:
 	sf::CircleShape shape;
@@ -272,6 +304,34 @@ public:
 					explode.Create(this->shape.getPosition(), this->shape.getRadius());
 					asteroExplo.push_back(explode);
 					asteroidExplode.play();
+					double chance = dist(generator);
+					if (chance > 0.9f) {
+						PowerUp extLife;
+						extLife.shape.setPosition(this->shape.getPosition());
+						extLife.sprite.setPosition(extLife.shape.getPosition());
+						extLife.alive = true;
+						extLife.shape.setFillColor(sf::Color::Black);
+						extLife.type = 1;
+						powerupList.push_back(extLife);
+					}
+					else if (chance < 0.2f) {
+						PowerUp snip;
+						snip.shape.setPosition(this->shape.getPosition());
+						snip.sprite.setPosition(snip.shape.getPosition());
+						snip.alive = true;
+						snip.shape.setFillColor(sf::Color::Black);
+						snip.type = 2;
+						powerupList.push_back(snip);
+					}
+					else if (chance >= 0.2f && chance < 0.4f) {
+						PowerUp speedup;
+						speedup.shape.setPosition(this->shape.getPosition());
+						speedup.sprite.setPosition(speedup.shape.getPosition());
+						speedup.alive = true;
+						speedup.shape.setFillColor(sf::Color::Black);
+						speedup.type = 3;
+						powerupList.push_back(speedup);
+					}
 					return true;
 				}
 		}
@@ -301,9 +361,6 @@ public:
 		window->draw(this->shape);
 		window->draw(this->sprite);
 	}
-};
-class Enemy {
-
 };
 int random(int a) {
 	srand(time(0));
@@ -407,6 +464,21 @@ int main()
 		return 1;
 	}
 	SmallAsterTexture.setSmooth(true);
+	sf::Texture extralife;
+	if (!extralife.loadFromFile("Data/Sprites/ExtraLife.png")) {
+		return 1;
+	}
+	extralife.setSmooth(true);
+	sf::Texture snipe;
+	if (!snipe.loadFromFile("Data/Sprites/Snipe.png")) {
+		return 1;
+	}
+	snipe.setSmooth(true);
+	sf::Texture speedUp;
+	if (!speedUp.loadFromFile("Data/Sprites/SpeedUp.png")) {
+		return 1;
+	}
+	speedUp.setSmooth(true);
 	sf::Font font;
 	if (!font.loadFromFile("Data/Lobster/Lobster-Regular.ttf")) {
 		return 1;
@@ -456,7 +528,7 @@ int main()
 	gameoverText.setFont(font);
 	gameoverText.setCharacterSize(24);
 	gameoverText.setFillColor(sf::Color::Red);
-	gameoverText.setPosition(WIDTH / 2 - 110, HEIGHT / 2);
+	gameoverText.setPosition(110, HEIGHT / 2);
 	Ship ship;
 	ship.shape = sf::CircleShape(32.0f);
 	ship.shape.setPosition(WIDTH/2 - ship.shape.getRadius(), HEIGHT/2 - ship.shape.getRadius());
@@ -488,6 +560,7 @@ int main()
 	int level = 1;
 	bool gameStarted = false;
 	bool gameOver = false;
+	float bullSpeed = 200.0f;
 
 	while (window.isOpen())
 	{
@@ -530,9 +603,11 @@ int main()
 
 				case 1: {
 					if (!levelStarted) {
+						powerupList.clear();
 						asteroExplo.clear();
 						AsteroidList.clear();
 						BulletList.clear();
+						bullSpeed = 200.0f;
 						Asteroid aster;
 						aster.size = 3;
 						aster.shape = sf::CircleShape(32.0f);
@@ -630,7 +705,7 @@ int main()
 									bullet.shape.setPosition(ship.shape.getPosition());
 									bullet.shape.setFillColor(sf::Color::Red);
 									bullet.mouseDir = sf::Vector2f(sf::Mouse::getPosition(window));
-									bullet.speed = 100.0f;
+									bullet.speed = bullSpeed;
 									bullet.alive = true;
 									bullet.Init();
 									bullet.life.restart();
@@ -646,7 +721,42 @@ int main()
 						}
 
 						ship.RotateAndMomentum(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y, deltaTime);
-
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									switch (powerupList[i].type)
+									{
+									case 1:
+										powerupList[i].sprite.setTexture(extralife);
+										break;
+									case 2:
+										powerupList[i].sprite.setTexture(snipe);
+										break;
+									case 3:
+										powerupList[i].sprite.setTexture(speedUp);
+										break;
+									default:
+										break;
+									}
+									if (powerupList[i].Update(&ship)) {
+										switch (powerupList[i].type)
+										{
+										case 1:
+											ship.lives ++;
+											break;
+										case 2:
+											bullSpeed += 40.0f;
+											break;
+										case 3:
+											ship.velocity += sf::Vector2f(20.0f, 20.0f);
+											break;
+										default:
+											break;
+										}
+									}
+								}
+							}
+						}
 						//assgin the bullet grid
 						for (int i = 0; i < BulletList.size(); i++) {
 							if (BulletList[i].alive) {
@@ -812,6 +922,7 @@ int main()
 														default:
 															break;
 														}
+														
 														break;
 													}
 												}
@@ -937,6 +1048,13 @@ int main()
 							levelChange.play();
 							levelStarted = false;
 						}
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									powerupList[i].draw(&window);
+								}
+							}
+						}
 						ship.draw(&window);
 						thrustEffect.draw(&window);
 						window.draw(scoreText);
@@ -948,6 +1066,7 @@ int main()
 				}
 				case 2: {
 					if (!levelStarted) {
+						powerupList.clear();
 						asteroExplo.clear();
 						AsteroidList.clear();
 						BulletList.clear();
@@ -1060,7 +1179,7 @@ int main()
 									bullet.shape.setPosition(ship.shape.getPosition());
 									bullet.shape.setFillColor(sf::Color::Red);
 									bullet.mouseDir = sf::Vector2f(sf::Mouse::getPosition(window));
-									bullet.speed = 100.0f;
+									bullet.speed = bullSpeed;
 									bullet.alive = true;
 									bullet.Init();
 									bullet.life.restart();
@@ -1076,7 +1195,42 @@ int main()
 						}
 
 						ship.RotateAndMomentum(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y, deltaTime);
-
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									switch (powerupList[i].type)
+									{
+									case 1:
+										powerupList[i].sprite.setTexture(extralife);
+										break;
+									case 2:
+										powerupList[i].sprite.setTexture(snipe);
+										break;
+									case 3:
+										powerupList[i].sprite.setTexture(speedUp);
+										break;
+									default:
+										break;
+									}
+									if (powerupList[i].Update(&ship)) {
+										switch (powerupList[i].type)
+										{
+										case 1:
+											ship.lives++;
+											break;
+										case 2:
+											bullSpeed += 40.0f;
+											break;
+										case 3:
+											ship.velocity += sf::Vector2f(20.0f, 20.0f);
+											break;
+										default:
+											break;
+										}
+									}
+								}
+							}
+						}
 
 						//assgin the bullet grid
 						for (int i = 0; i < BulletList.size(); i++) {
@@ -1369,6 +1523,13 @@ int main()
 							levelChange.play();
 							levelStarted = false;
 						}
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									powerupList[i].draw(&window);
+								}
+							}
+						}
 						ship.draw(&window);
 						thrustEffect.draw(&window);
 						window.draw(scoreText);
@@ -1380,6 +1541,7 @@ int main()
 				}
 				case 3: {
 					if (!levelStarted) {
+						powerupList.clear();
 						asteroExplo.clear();
 						AsteroidList.clear();
 						BulletList.clear();
@@ -1504,7 +1666,7 @@ int main()
 									bullet.shape.setPosition(ship.shape.getPosition());
 									bullet.shape.setFillColor(sf::Color::Red);
 									bullet.mouseDir = sf::Vector2f(sf::Mouse::getPosition(window));
-									bullet.speed = 100.0f;
+									bullet.speed = bullSpeed;
 									bullet.alive = true;
 									bullet.Init();
 									bullet.life.restart();
@@ -1520,7 +1682,42 @@ int main()
 						}
 
 						ship.RotateAndMomentum(sf::Mouse::getPosition(window).x, sf::Mouse::getPosition(window).y, deltaTime);
-
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									switch (powerupList[i].type)
+									{
+									case 1:
+										powerupList[i].sprite.setTexture(extralife);
+										break;
+									case 2:
+										powerupList[i].sprite.setTexture(snipe);
+										break;
+									case 3:
+										powerupList[i].sprite.setTexture(speedUp);
+										break;
+									default:
+										break;
+									}
+									if (powerupList[i].Update(&ship)) {
+										switch (powerupList[i].type)
+										{
+										case 1:
+											ship.lives++;
+											break;
+										case 2:
+											bullSpeed += 40.0f;
+											break;
+										case 3:
+											ship.velocity += sf::Vector2f(20.0f, 20.0f);
+											break;
+										default:
+											break;
+										}
+									}
+								}
+							}
+						}
 
 						//assgin the bullet grid
 						for (int i = 0; i < BulletList.size(); i++) {
@@ -1813,6 +2010,13 @@ int main()
 							levelChange.play();
 							levelStarted = false;
 						}
+						if (powerupList.size() > 0) {
+							for (int i = 0; i < powerupList.size(); i++) {
+								if (powerupList[i].alive) {
+									powerupList[i].draw(&window);
+								}
+							}
+						}
 						ship.draw(&window);
 						thrustEffect.draw(&window);
 						window.draw(scoreText);
@@ -1827,8 +2031,8 @@ int main()
 				}
 			}
 			else {
-				gameoverText.setString("Game Over, Press Enter to go back to the start menu, Press Esc to exit the game");
-				if(sf::Keyboard::isKeyPressed(sf::Keyboard::Enter)) {
+				gameoverText.setString("Game End, Press Space to go back to the start menu, Press Esc to exit the game");
+				if(sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
 					gameOver = false;
 					gameStarted = false;
 					levelStarted = false;
